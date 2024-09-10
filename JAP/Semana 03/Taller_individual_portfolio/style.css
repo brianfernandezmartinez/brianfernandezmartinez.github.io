@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* Reset de estilo básico para eliminar márgenes y paddings predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.75;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Estilo del header y del título */
+header#titulo {
+    background: #007bff;
+    color: #fff;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Estilo de la sección sobre mí */
+div#sobreMi {
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo de los párrafos */
+p.primerTexto,
+p.segundoTexto {
+    margin-bottom: 15px;
+}
+
+/* Estilo del hipervínculo */
+.linksContacto a{
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.3s;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.linksContacto a:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+}
+
+.linksContacto{
+    display: flex;
+    justify-content: space-evenly;
+}

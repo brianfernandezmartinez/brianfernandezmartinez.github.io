@@ -1,0 +1,11 @@
+-----------------------------------------------------------------------------------------------------------------------------------------
+getElementsByTagName('etiquetaHTML');
+getElementsByName('nameHTML');
+getElementById('id');
+getElementsByClassName('class');
+
+getElementById() es el único de estos métodos que no devuelve un array de elementos, sino directamente el elemento, 
+ya que no habrá más de un elemento con el mismo atributo id en nuestra página.
+Al usar cualquiera de los otros métodos, aunque solo encuentren un elemento, este será retornado dentro de un array.
+-----------------------------------------------------------------------------------------------------------------------------------------
+
